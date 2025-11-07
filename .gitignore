@@ -1,0 +1,40 @@
+# OS & editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.parcel-cache/
+.turbo/
+.eslintcache
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Dependency / package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.egg-info/
+
+# IDE / tooling
+.idea/
+.vscode/
+*.iml
+
